@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.11.0",
+    "libraryName": "mi-360-data-security-gate",
+    "libraryId": "df2014b9-a943-4a67-92e4-2f6f887fb8e8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "mi360-data-security-gate",
+    "extensionType": "ApplicationCustomizer",
+    "framework": "react",
+    "componentName": "Mi360DataSecurityGate",
+    "componentDescription": "MI360 Data Security acknowledgement gate",
+    "isCreatingSolution": true,
+    "isDomainIsolated": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+  "id": "f0f108c2-8e86-42f5-993d-cb1863c8f6d4",
+  "alias": "Mi360DataSecurityGateApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "1.0.0.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "properties": {
+    "siteRelativeRootPath": "/sites/MI360",
+    "ownersGroupName": "MI360 Owners",
+    "acknowledgementListTitle": "MI360 Data Security Acknowledgements",
+    "acknowledgementPageRelativeUrl": "/sites/MI360/SitePages/MI360-Data-Security-Acknowledgement.aspx",
+    "policyTitle": "ZF Data Security Policy",
+    "policyUrl": "https://www.zf.com/corporate/en/our-company/data-protection.html",
+    "supportUrl": "/sites/MI360/SitePages/MI360-Support.aspx"
+  }
+}

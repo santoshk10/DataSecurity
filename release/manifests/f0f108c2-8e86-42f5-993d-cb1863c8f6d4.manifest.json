@@ -1,0 +1,55 @@
+{
+  "id": "f0f108c2-8e86-42f5-993d-cb1863c8f6d4",
+  "alias": "Mi360DataSecurityGateApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "1.0.0.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "properties": {
+    "siteRelativeRootPath": "/sites/MI360",
+    "ownersGroupName": "MI360 Owners",
+    "acknowledgementListTitle": "MI360 Data Security Acknowledgements",
+    "acknowledgementPageRelativeUrl": "/sites/MI360/SitePages/MI360-Data-Security-Acknowledgement.aspx",
+    "policyTitle": "ZF Data Security Policy",
+    "policyUrl": "https://www.zf.com/corporate/en/our-company/data-protection.html",
+    "supportUrl": "/sites/MI360/SitePages/MI360-Support.aspx"
+  },
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "mi360-data-security-gate-application-customizer",
+    "scriptResources": {
+      "mi360-data-security-gate-application-customizer": {
+        "type": "path",
+        "path": "mi360-data-security-gate-application-customizer.js"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.23.2"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.23.2"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.23.2"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "17.0.2"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "17.0.2"
+      }
+    }
+  }
+}
